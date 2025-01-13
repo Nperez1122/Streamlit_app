@@ -1,0 +1,95 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f0f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  background-color: #20232a;
+  padding: 30px;
+  color: white;
+  font-size: 2rem;
+  border-bottom: 5px solid #61dafb;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.event-input {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.event-input input {
+  padding: 12px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 250px;
+  transition: border-color 0.3s;
+}
+
+.event-input input:focus {
+  border-color: #61dafb;
+  outline: none;
+}
+
+.event-input button {
+  padding: 12px 20px;
+  background-color: #61dafb;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.event-input button:hover {
+  background-color: #21a1f1;
+  transform: scale(1.05);
+}
+
+.event-list {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.event-list li {
+  background-color: #3a3a3a;
+  margin: 10px 0;
+  padding: 15px;
+  color: white;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.event-list li:hover {
+  background-color: #505050;
+  transform: translateY(-3px);
+}
+
+.event-list button {
+  background-color: #ff4c4c;
+  border: none;
+  padding: 8px 15px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.event-list button:hover {
+  background-color: #ff2c2c;
+  transform: scale(1.05);
+}
